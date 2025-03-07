@@ -53,7 +53,7 @@ int main(){
 
     double cgpa = calculate_cgpa(credit_hourss, grades);
 
-    cout << "Your CGPA is: " << fixed << setprecision(2) << cgpa << endl;
+    cout << "Your CGPA is: " << fixed << setprecision(2) << "\033[32m"  << cgpa << "\033[0m" << endl;
 
 
     return 0;
